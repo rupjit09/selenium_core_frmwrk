@@ -1,0 +1,10 @@
+<suite name="My practice Suite">
+<listeners>
+<listener class-name="listeners.TestsListenerAdapter"/>
+</listeners>
+
+<suite-files>
+<suite-file path="./shopSuite.xml"/>
+<suite-file path="./cartSuite.xml"/>
+</suite-files>
+</suite>

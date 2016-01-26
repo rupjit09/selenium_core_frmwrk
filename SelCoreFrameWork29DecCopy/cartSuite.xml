@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Cart Suite">
+    
+    <listeners>
+<listener class-name="listeners.TestsListenerAdapter"/>
+</listeners>
+<test name="AddProductTest">
+<classes>
+<class name="cartSuite.AddProductTest">
+</class></classes>
+</test>
+
+<test name="CheckProductDisplay">
+<classes>
+<class name="cartSuite.CheckProductDisplay">
+</class></classes>
+</test>
+</suite>
