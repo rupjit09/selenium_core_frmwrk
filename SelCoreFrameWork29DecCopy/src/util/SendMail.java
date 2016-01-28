@@ -19,7 +19,7 @@ public class SendMail
     {
         Zip.zipDir(System.getProperty("user.dir")+"\\testng-xslt",System.getProperty("user.dir")+"\\email_xlst_reports.rar" );
         
-                String[] to={"rupjit09@gmail.com"};
+                String[] to={"girishtuku@gmail.com"};
 
                 String[] cc={};
                 String[] bcc={};
@@ -27,8 +27,8 @@ public class SendMail
                 //This is for google
                
 
-                SendMail.sendMail("rupjit09@gmail.com",
-                                            "Barpetaroad09",
+                SendMail.sendMail("girishtuku@gmail.com",
+                                            "Q1w2e3Q!",
                                             "smtp.gmail.com",
                                             "465",
                                             "true",
@@ -140,7 +140,7 @@ public class SendMail
 
             // Put parts in message
             msg.setContent(multipart);
-            msg.setFrom(new InternetAddress("rupjit09@gmail.com"));
+            msg.setFrom(new InternetAddress("girishtuku@gmail.com"));
 
                         for(int i=0;i<to.length;i++){
 
