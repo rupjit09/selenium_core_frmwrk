@@ -73,7 +73,7 @@
         </xslt>
     </target>
     
- <target name="email" depends="Run">
+ <target name="email">
                  <java classname="util.SendMail" classpath="$test.dest" classpathref="classpath" />
          </target>
  
